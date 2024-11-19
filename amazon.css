@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-logo:hover{
+    border:2px solid white;
+    border-radius: 4px;
+}
+/* box2 */
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color:#cccccc;
+    font-size: 0.9rem;
+    padding-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    padding-left: 3px;
+}
+.nav-address:hover{
+    border:2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:50px;
+    border: none;
+    text-align: center;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 187, 0);
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+/* box4 */
+.nav-first{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-signin:hover,.nav-return:hover{
+    border:2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* box5 */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart:hover{
+    border:2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* panel */
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panel-options{
+    display: flex;
+    width: 100%;
+    font-size: 0.9rem;
+}
+.panel-options p{
+    margin-left:25px;
+    cursor: context-menu;
+}
+.panel-options p:hover{
+    text-decoration: underline;
+}
+.side_view{
+    width: 5%;
+    margin-top: 10px;
+}
+.side_view img{
+    border: 1px solid black;
+}
+.side{
+    display: flex;
+}
+    
