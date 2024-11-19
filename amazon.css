@@ -133,9 +133,15 @@
 .side_view{
     width: 5%;
     margin-top: 10px;
+    margin-left: 10px;
+}
+.side_view_img:hover{
+    border: 2px solid orange;
+
 }
 .side_view img{
     border: 1px solid black;
+    
 }
 .side{
     display: flex;
